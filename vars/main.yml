@@ -1,10 +1,10 @@
 # vars file for nginx
 ---
 proxy_domains:
-  # - subdomain: proxy.lxhome.fr
-  #   protocol: http
-  #   backend_ip: 192.168.60.17
-  #   backend_port: 80
+  - subdomain: proxy.lxhome.fr
+    protocol: http
+    backend_ip: 192.168.8.216
+    backend_port: 80
 
   # - subdomain: router.lxhome.fr
   #   protocol: http
@@ -61,7 +61,7 @@ proxy_domains:
   #   backend_ip: 192.168.8.152
   #   backend_port: 443
 
-  - subdomain: proxmox.lxhome.fr
-    protocol: https
-    backend_ip: proxmox.lxhome.local
-    backend_port: 8006
+  # - subdomain: proxmox.lxhome.fr
+  #   protocol: https
+  #   backend_ip: proxmox.lxhome.local
+  #   backend_port: 8006

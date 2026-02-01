@@ -5,4 +5,4 @@
   vars_files:
     - vars/main.yml
   roles:
-    - nginx
+    - lxhome.service.nginx
