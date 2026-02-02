@@ -1,10 +1,10 @@
 # vars file for nginx
 ---
 proxy_domains:
-  # - subdomain: proxy.lxhome.fr
-  #   protocol: http
-  #   backend_ip: 192.168.60.17
-  #   backend_port: 80
+  - subdomain: proxy.lxhome.fr
+    protocol: http
+    backend_ip: 192.168.8.216
+    backend_port: 80
 
   # - subdomain: router.lxhome.fr
   #   protocol: http
@@ -65,48 +65,3 @@ proxy_domains:
   #   protocol: https
   #   backend_ip: proxmox.lxhome.local
   #   backend_port: 8006
-
-  # - subdomain: gitlab.lxhome.fr
-  #   protocol: https
-  #   backend_ip: master.lxhome.local
-  #   backend_port: 445
-
-  # - subdomain: immich.lxhome.fr
-  #   protocol: http
-  #   backend_ip: immich-home.lxhome.local
-  #   backend_port: 2283
-  
-  # - subdomain: nextcloud.netdata.lxhome.fr
-  #   protocol: http
-  #   backend_ip: nextcloud.lxhome.local
-  #   backend_port: 19999
-
-  # - subdomain: n8n.lxhome.fr
-  #   protocol: http
-  #   backend_ip: n8n.lxhome.local
-  #   backend_port: 5678
-
-  # - subdomain: galaxy.lxhome.fr
-  #   protocol: http
-  #   backend_ip: galaxy.lxhome.local
-  #   backend_port: 5001
-  
-  # - subdomain: sftp.lxhome.fr
-  #   protocol: http
-  #   backend_ip: 192.168.8.107
-  #   backend_port: 8080
-  
-  # - subdomain: grafana.virtualaws.cloud
-  #   protocol: http
-  #   backend_ip: 192.168.1.52
-  #   backend_port: 3000
-
-  # - subdomain: portainer.virtualaws.cloud
-  #   protocol: https
-  #   backend_ip: 192.168.1.52
-  #   backend_port: 9443
-  
-  - subdomain: proxmox.virtualaws.cloud
-    protocol: https
-    backend_ip: 192.168.1.200
-    backend_port: 8006
